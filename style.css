@@ -1,0 +1,745 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lobster";
+}
+
+html {
+  font-size: 60%;
+  overflow-x: scroll;
+}
+
+.header {
+  background: white;
+  position: fixed;
+  border-bottom: solid rgb(210, 206, 206) 1px;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 30px;
+  padding: 4rem 2% 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  font-family: "Lobster";
+  text-decoration: none;
+}
+
+span {
+  color: red;
+  font-weight: 700;
+  font-size: 40px;
+}
+.navbar a {
+  font-size: 25px;
+  margin-left: 50px;
+  font-weight: 500px;
+  text-decoration: none;
+  color: black;
+  flex-wrap: wrap;
+}
+
+header .social-icon {
+  display: inline;
+  justify-content: space-around;
+  font-size: 100px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.first-1 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 40px;
+  margin-left: 300px;
+  margin-top: 100px;
+  height: 400px;
+  
+}
+
+.first {
+  background-color: rgb(202, 224, 246);
+  border-radius: 20px;
+}
+
+.baked-chicken {
+  height: 400px;
+  width: 600px;
+}
+
+.button-recipes {
+  height: 45px;
+  width: 160px;
+  background-color: white;
+  border: none;
+  margin-top: 30px;
+  margin-right: 350px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button-recipes:hover {
+  background-color: hotpink;
+  color: honeydew;
+}
+
+.spicy-h1 {
+  font-size: 30px;
+  width: 200px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.lorem-1 {
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 504px;
+  color: rgb(96, 96, 96);
+}
+
+.button-minutes-1,
+.button-minutes-2 {
+  height: 40px;
+  width: 140px;
+  background-color: rgb(205, 213, 230);
+  color: rgb(96, 96, 96);
+  border: none;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button-minutes-2:hover {
+  background-color: blueviolet;
+  color: black;
+}
+
+.button-minutes-1:hover {
+  background-color: blueviolet;
+  color: black;
+}
+
+.button-minutes:hover {
+  background-color: brown;
+  color: beige;
+}
+
+.John {
+  display: flex;
+  width: 50px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 35px;
+  margin-bottom: 100px;
+}
+
+.button-view-recipes {
+  height: 50px;
+  width: 180px;
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  margin-left: 200px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 400px;
+  margin-bottom: 100px;
+}
+
+.button-view-recipes:hover {
+  background-color: rgb(180 0% 50%);
+  color: black;
+}
+
+.vertical {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 600px;
+
+}
+.button {
+  display: flex;
+  margin-right: 200px;
+}
+
+.category {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+.cate {
+  font-size: 30px;
+  font-weight: 500px;
+  margin-left: 150px;
+}
+
+.view-all-categ {
+  height: 50px;
+  width: 180px;
+  background-color: rgb(202, 224, 246);
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 150px;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 70px;
+  flex-wrap: wrap;
+}
+
+.category-group {
+  display: block;
+  margin-top: 30px;
+}
+.breakfast {
+  background-color: rgb(202, 214, 200);
+  border-radius: 10px;
+  height: 80px;
+  width: 150px;
+}
+.group-1 {
+  box-shadow: 5px 5px 5px rgb(235, 228, 228);
+  border-radius: 50px;
+}
+
+.vegan {
+  background-color: rgb(220, 251, 228);
+  border-radius: 10px;
+  height: 80px;
+  width: 150px;
+}
+.group-2 {
+  box-shadow: 5px 5px 5px rgb(213, 236, 219);
+  border-radius: 50px;
+}
+
+.meat {
+  background-color: rgb(245, 220, 224);
+  border-radius: 10px;
+  height: 80px;
+  width: 150px;
+}
+.group-3 {
+  box-shadow: 5px 5px 5px pink;
+  border-radius: 50px;
+}
+
+.dessert {
+  background-color: papayawhip;
+  border-radius: 10px;
+  height: 80px;
+  width: 150px;
+}
+.group-4 {
+  box-shadow: 5px 5px 5px peachpuff;
+  border-radius: 50px;
+}
+
+.lunch {
+  background-color: papayawhip;
+  border-radius: 10px;
+  height: 80px;
+  width: 150px;
+}
+.group-5 {
+  box-shadow: 5px 5px 5px peachpuff;
+  border-radius: 50px;
+}
+
+.chocolate {
+  background-color: papayawhip;
+  border-radius: 10px;
+  height: 80px;
+  width: 150px;
+}
+.group-6 {
+  box-shadow: 5px 5px 5px peachpuff;
+  border-radius: 50px;
+}
+
+.tasty {
+  display: block;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.tasty-2 {
+  background-color: seagreen;
+  color: white;
+}
+
+.Dont-forget-1 {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 20px;
+  width: 300px;
+}
+
+.Dont-forget-2 {
+  margin-bottom: 30px;
+}
+.Cheeseburger-1 {
+  width: 500px;
+}
+
+.tasty-1 {
+  border-radius: 20px;
+}
+
+.tasty-group {
+  font-size: 40px;
+  font-weight: 500px;
+}
+
+.lorem-2 {
+  width: 700px;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+.simple-recipes-1 {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 70px;
+  flex-wrap:wrap ;
+}
+
+.simple-recipes-2 {
+  display: flex;
+  justify-content: space-ev;
+  text-align: center;
+  margin-top: 70px;
+
+}
+
+.Cheeseburger {
+  width: 300px;
+  height: 300px;
+}
+
+.Everyone-1 {
+  display: block;
+  margin-top: 150px;
+}
+
+.everyone-2 {
+  font-size: 30px;
+  font-weight: 500px;
+  width: 370px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.lorem-3 {
+  width: 495px;
+  margin-bottom: 50px;
+}
+.button-view-recipes-2 {
+  height: 50px;
+  width: 180px;
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 250px;
+}
+
+.everyone-chef-man {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 300px;
+  margin: auto;
+  width: fit-content;
+  height: 400px;
+flex-wrap: wrap;
+}
+
+.chef-man-1 {
+  margin-top: 150px;
+}
+
+.check-out {
+  margin-top: 200px;
+}
+
+.check-out-3 {
+  display: block;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 500px;
+  flex-wrap: wrap;
+}
+
+.simple-recipes-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+  flex-wrap: wrap;
+}
+
+.lorem-4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 700px;
+  margin-left: 500px;
+  flex-wrap: wrap;
+}
+
+.button-view-recipes-3 {
+  height: 70px;
+  width: 200px;
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 250px;
+  margin-left: 800px;
+  margin-top: 100px;
+}
+
+.check-out {
+  background-color: rgb(202, 224, 246);
+}
+
+.profile-pic {
+  width: 40px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.liked {
+  display: inline-flex;
+}
+
+.delicious {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.delicious-1 {
+  display: block;
+  font-size: 30px;
+  width: 380px;
+  font-weight: bold;
+}
+
+.lorem-1 {
+  display: block;
+  width: 600px;
+  font-size: 10px;
+}
+
+.delicious-2,
+.Cheeseburger-1 {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  width: 300px;
+}
+
+.m-h {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+  color: rgb(96, 96, 96);
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.right-btn {
+  background-color: black;
+  border-radius: 15px;
+  font-size: 25px;
+  color: #ffffff;
+  width: 200px;
+  height: 60px;
+  outline: none;
+  border: none;
+}
+
+.right-btn:hover {
+  background-color: #13547a;
+  color: black;
+}
+
+.input- {
+  background-color: white;
+  text-align: center;
+  border: none;
+  color: grey;
+  margin: 0px 30px;
+  font-size: 30px;
+  border-radius: 15px;
+  width: 500px;
+  height: 100px;
+  outline: none;
+  margin: 100px auto;
+}
+
+
+.deliciousness {
+  background-color: rgb(202, 224, 246);
+  margin-top: 80px;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+
+.navbar-1 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 200px;
+  font-size: 20px;
+  margin-left: 200px;
+  border-bottom: solid rgb(210, 206, 206) 1px;
+}
+
+.active {
+  display: inline-block;
+  justify-content: center;
+  margin-left: 50px;
+  font-size: 22px;
+  text-decoration: none;
+  margin-left: 200px;
+  color: black;
+}
+
+.copyright {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.copy-date {
+  font-size: 20px;
+}
+.web {
+  color: red;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.blog-1 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.John-1 {
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+  margin: auto;
+}
+
+
+.lorem-5 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 60px;
+  width: 800px;
+  margin: auto;
+  font-size: 10px;
+}
+
+.m-h-1 {
+  display: flex;
+  font-size: 20px;
+  color: grey;
+  margin: auto;
+}
+
+.mask {
+  display: flex;
+  margin: auto;
+}
+
+.industry{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.Lorem-7,.Lorem-8{
+    width: 405px;
+    font-size:10px;
+    line-height: 15px;
+}
+.Lorem-9{
+    width: 405px;
+    font-size:10px;
+    line-height: 15px;
+    margin-top: 25px;
+}
+
+.pic-write-up{
+    display: block;
+    margin-left: 300px;
+}
+
+.lorem-bold{
+    background: rgb(225, 224, 224);
+    font-size: 25px;
+    font-style:Arial;
+    font-weight: bold;
+    width: 600px;
+    margin-top: 100px;
+    line-height: 50px;
+}
+.woman-chef{
+border-radius: 20px;
+}
+
+.industry-3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    width: 800px;
+}
+
+.check-delicious{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+.contact-group{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.group-00, .group-0, .group-000{
+  text-align: center;
+  border: none;
+  color: grey;
+  margin: 0px 30px;
+  font-size: 20px;
+  border-radius: 15px;
+  width: 500px;
+  height: 100px;
+  outline: none;
+  margin: 100px auto; 
+}
+
+
+input {
+  padding: 20px 0 20px 20px;
+  width: 400px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+label{
+margin-right: 400px;
+}
+
+.mgs  {
+  margin-right: 500px;
+}
+
+.text-area{
+  border-radius: 10px;
+}
+.equire{
+  width: 250px;
+}
+
+.group-btn{
+margin-top: 50px;
+margin-left: 900px;
+}
+
+.input input {
+  padding-left: 20px;
+  font-size: 16px;
+  margin-top: 15px;
+  width: 400px;
+  height: 40px;
+}
+
+textarea {
+  margin-top: 10px;
+  width: 400px;
+  height: 70px;
+  outline: none;
+}
+
+.input-9{
+  display:grid;
+  padding: 20px 0 20px 20px;
+}
+
+.input-000{
+margin-right: 850px;
+
+}
+
+.contact-group{
+  margin: auto;
+}
+
+.man-smiling{
+background-color: rgb(211, 243, 230);
+}
+
+
+@media(max-width: 600px){
+ .John-1{
+    width:100px;
+    margin:auto;
+  }
+
+}
+  
