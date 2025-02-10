@@ -756,12 +756,10 @@ color: #fff;
 
 
 @media (max-width: 600px) {
-  .John-1 {
+  /* .John-1 {
     width: 100px;
     margin: auto;
-  }
+  } */
 
-  .first-1{
-    flex-wrap: wrap;
-   }
+ 
 }
