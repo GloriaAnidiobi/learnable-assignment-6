@@ -65,7 +65,6 @@ header .social-icon {
   margin-left: 300px;
   margin-top: 100px;
   height: 400px;
-  
 }
 
 .first {
@@ -171,7 +170,6 @@ header .social-icon {
   justify-content: center;
   align-content: center;
   width: 600px;
-
 }
 .button {
   display: flex;
@@ -330,7 +328,7 @@ header .social-icon {
   justify-content: space-evenly;
   text-align: center;
   margin-top: 70px;
-  flex-wrap:wrap ;
+  flex-wrap: wrap;
 }
 
 .simple-recipes-2 {
@@ -338,7 +336,6 @@ header .social-icon {
   justify-content: space-ev;
   text-align: center;
   margin-top: 70px;
-
 }
 
 .Cheeseburger {
@@ -382,7 +379,7 @@ header .social-icon {
   margin: auto;
   width: fit-content;
   height: 400px;
-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .chef-man-1 {
@@ -397,8 +394,18 @@ flex-wrap: wrap;
   display: block;
   justify-content: space-around;
   text-align: center;
-  margin-top: 300px;
+  margin-top: 200px;
   margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 500px;
+  flex-wrap: wrap;
+}
+
+.check-out-6 {
+  display: block;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 300px;
   font-size: 40px;
   font-weight: 500px;
   flex-wrap: wrap;
@@ -408,7 +415,6 @@ flex-wrap: wrap;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 80px;
   flex-wrap: wrap;
 }
 
@@ -417,7 +423,8 @@ flex-wrap: wrap;
   justify-content: center;
   text-align: center;
   width: 700px;
-  margin-left: 500px;
+  margin-top: 20px;
+  margin-left: 550px;
   flex-wrap: wrap;
 }
 
@@ -446,8 +453,10 @@ flex-wrap: wrap;
 }
 
 .liked {
-  display: inline-flex;
+  display: flex;
 }
+
+
 
 .delicious {
   display: flex;
@@ -496,6 +505,7 @@ flex-wrap: wrap;
   background-color: black;
   border-radius: 15px;
   font-size: 25px;
+  margin-right: 100px;
   color: #ffffff;
   width: 200px;
   height: 60px;
@@ -515,18 +525,16 @@ flex-wrap: wrap;
   color: grey;
   margin: 0px 30px;
   font-size: 30px;
-  border-radius: 15px;
+  border-radius: 20px;
   width: 500px;
   height: 100px;
   outline: none;
   margin: 100px auto;
 }
 
-
 .deliciousness {
   background-color: rgb(202, 224, 246);
-  margin-top: 80px;
-  margin-left: 100px;
+  margin-top: 50px;
   border-radius: 20px;
 }
 
@@ -579,7 +587,6 @@ flex-wrap: wrap;
   margin: auto;
 }
 
-
 .lorem-5 {
   display: flex;
   justify-content: center;
@@ -603,64 +610,67 @@ flex-wrap: wrap;
   margin: auto;
 }
 
-.industry{
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 40px;
-    margin-top: 100px;
+.industry {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 100px;
 }
 
-.Lorem-7,.Lorem-8{
-    width: 405px;
-    font-size:10px;
-    line-height: 15px;
+.Lorem-7,
+.Lorem-8 {
+  width: 405px;
+  font-size: 10px;
+  line-height: 15px;
 }
-.Lorem-9{
-    width: 405px;
-    font-size:10px;
-    line-height: 15px;
-    margin-top: 25px;
-}
-
-.pic-write-up{
-    display: block;
-    margin-left: 300px;
+.Lorem-9 {
+  width: 405px;
+  font-size: 10px;
+  line-height: 15px;
+  margin-top: 25px;
 }
 
-.lorem-bold{
-    background: rgb(225, 224, 224);
-    font-size: 25px;
-    font-style:Arial;
-    font-weight: bold;
-    width: 600px;
-    margin-top: 100px;
-    line-height: 50px;
-}
-.woman-chef{
-border-radius: 20px;
+.pic-write-up {
+  display: block;
+  margin-left: 300px;
 }
 
-.industry-3{
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 40px;
-    margin-top: 100px;
-    width: 800px;
+.lorem-bold {
+  background: rgb(225, 224, 224);
+  font-size: 25px;
+  font-style: Arial;
+  font-weight: bold;
+  width: 600px;
+  margin-top: 100px;
+  line-height: 50px;
+}
+.woman-chef {
+  border-radius: 20px;
 }
 
-.check-delicious{
-    margin-top: 100px;
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 100px;
+.industry-3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 100px;
+  width: 800px;
 }
-.contact-group{
+
+.check-delicious {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+.contact-group {
   display: flex;
   justify-content: space-between;
   text-align: center;
 }
 
-.group-00, .group-0, .group-000{
+.group-00,
+.group-0,
+.group-000 {
   text-align: center;
   border: none;
   color: grey;
@@ -670,35 +680,34 @@ border-radius: 20px;
   width: 500px;
   height: 100px;
   outline: none;
-  margin: 100px auto; 
+  margin: 100px auto;
 }
-
 
 input {
   padding: 20px 0 20px 20px;
-  width: 400px;
+  width: 600px;
   height: 60px;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
-label{
-margin-right: 400px;
+label {
+  margin-right: 400px;
 }
 
-.mgs  {
+.mgs {
   margin-right: 500px;
 }
 
-.text-area{
+.text-area {
   border-radius: 10px;
 }
-.equire{
+.equire {
   width: 250px;
 }
 
-.group-btn{
-margin-top: 50px;
-margin-left: 900px;
+.group-btn {
+  margin-top: 50px;
+  margin-left: 900px;
 }
 
 .input input {
@@ -716,30 +725,43 @@ textarea {
   outline: none;
 }
 
-.input-9{
-  display:grid;
+.input-9 {
+  display: grid;
   padding: 20px 0 20px 20px;
 }
 
-.input-000{
-margin-right: 850px;
-
+.input-000 {
+  margin-right: 850px;
 }
 
-.contact-group{
+.contact-group {
   margin: auto;
 }
 
-.man-smiling{
-background-color: rgb(211, 243, 230);
+.man-smiling {
+  background-color: rgb(211, 243, 230);
+}
+
+.active:hover{
+background-color: #ddd;
+color:red
+}
+
+.logo:hover{
+background-color: aqua;
+color: #fff;
 }
 
 
-@media(max-width: 600px){
- .John-1{
-    width:100px;
-    margin:auto;
+
+
+@media (max-width: 600px) {
+  .John-1 {
+    width: 100px;
+    margin: auto;
   }
 
+  .first-1{
+    flex-wrap: wrap;
+   }
 }
-  
